@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/scripts/employee.sql
+        - include:
+              file: liquibase/scripts/position.sql
